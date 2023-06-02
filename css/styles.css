@@ -1,5 +1,6 @@
 body {
     background-color: #fffbf7;
+    margin: 0;
 }
 
 h1 {
@@ -15,5 +16,40 @@ p {
 
 button {
     color: #fff;
-    background-color: #025157;
+    background-color: rgb(5, 5, 113);
+    margin-right: 10px;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+nav {
+    display: inline;
+    margin: 12px;
+}
+
+ul {
+    display: inline;
+    align-items: center;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div{
+    display: inline;
 }
