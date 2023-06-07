@@ -41,7 +41,6 @@ a {
     padding: 12px;
 }
 
-
 header {
     display: flex;
     align-items: center;
@@ -50,6 +49,48 @@ header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-div{
+div {
     display: inline;
+}
+
+.publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+
+.publish>p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.publish>form {
+    display: flex;
+}
+
+.publish>form p {
+    color: #025157;
+    margin-right: 18px;
+}
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explanatory-video img {
+    width: 20px;
+    margin-top: 10px;
 }
