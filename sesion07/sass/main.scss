@@ -1,0 +1,43 @@
+// SASS Permite hacer operaciones matemáticas con las propiedades de CSS
+
+@use 'global' as *; // Importa todas las variables de global.scss
+
+@mixin repetido ($tamano, $color) {
+    height: $tamano;
+    width: $tamano;
+    background-color: $color;
+}
+
+.blog {
+    @include repetido($size, $azul);
+
+    background-color: $azul;
+    height: $size;
+    width: $size;
+
+    @media (orientation: landscape) {
+        background-color: $verde;
+    }
+
+    @if($size <= 400) { // Si la condición es verdadera, se ejecuta el bloque de código
+        border: 10px solid;
+        border-color: $verde;
+    }
+}
+
+.blog2 {
+    @include repetido(300px, beige);
+}
+
+div {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        color: red;
+        font-size: large;
+    }
+}

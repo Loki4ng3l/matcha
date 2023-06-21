@@ -1,0 +1,36 @@
+.hola {
+  background-color: #04f9a3;
+  font-size: large;
+}
+
+.blog {
+  height: 600px;
+  width: 600px;
+  background-color: #04a3f9;
+  background-color: #04a3f9;
+  height: 600px;
+  width: 600px;
+}
+@media (orientation: landscape) {
+  .blog {
+    background-color: #04f9a3;
+  }
+}
+
+.blog2 {
+  height: 300px;
+  width: 300px;
+  background-color: beige;
+}
+
+div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+div p {
+  color: red;
+  font-size: large;
+}
+
+/*# sourceMappingURL=output.css.map */
