@@ -64,7 +64,8 @@ body {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 35px;
   text-decoration: none;
-  transition: color 1s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  transition: font-size 0.3s;
 }
 .feature__title__anchor:hover {
   color: #67b54b;
